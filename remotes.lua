@@ -5,6 +5,10 @@ local args = {
 
 game:GetService("ReplicatedStorage").XD:FireServer(unpack(args))
 
+
+
+
+
 -- CLOTHING REMOTE
 local args = {
     [1] = "accessory", -- DONT CHANGE THIS
@@ -13,8 +17,15 @@ local args = {
 
 game:GetService("ReplicatedStorage").AvatarEditor.RemoteEvent:FireServer(unpack(args))
 
+
+
+
+
+
 -- PING REMOTES??
 game:GetService("Players").LocalPlayer.PlayerGui.PerformanceGui.PerfDisplay.Handler.GetPing:FireServer()
+
+
 
 -- 1 SKINBOX REMOTE
 local args = {
@@ -23,6 +34,10 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+
+
+
 
 -- 10 SKINBOXES REMOTE
 local args = {
@@ -33,6 +48,10 @@ local args = {
 
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
 
+
+
+
+
 -- ANIMATION PACK REMOTES
 local args = {
     [1] = "AnimationPack",
@@ -40,6 +59,10 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+
+
+
 
 -- CREW REMOTE
 local args = {
@@ -49,6 +72,10 @@ local args = {
 
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
 
+
+
+
+
 -- MONEY REMOTE
 local args = {
     [1] = "DropMoney",
@@ -56,6 +83,11 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+
+
+
+
 
 -- CALL REMOTES
 local args = {
@@ -65,6 +97,11 @@ local args = {
 
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
 
+
+
+
+
+
 -- TALK REMOTE
 local args = {
     [1] = "TEST", -- WHAT YOU WANT TO SAY.
@@ -72,6 +109,11 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+
+
+
 
 -- BOOMBOX REMOTE
 local args = {
