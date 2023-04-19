@@ -61,6 +61,9 @@ local avatarSection = avatar:NewSection("")
 avatarSection:NewButton("Shazam!                                              click -->", "Make sure you have nothing on before clicking", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CCbluez/shazam-/main/shazamlua.lua"))()
 end)
+avatarSection:NewButton("Animations", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CCbluez/Montana99/main/testing/FE/FE-ANIMATIONS.LUA"))()
+end)
 
 avatarSection:NewTextBox("Custom Clothing ID", "type the id of the clothing you want", function(txt)
 
